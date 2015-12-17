@@ -1,0 +1,2 @@
+# KinectTapingToolkit
+Introduction of KinectTapingToolkit
