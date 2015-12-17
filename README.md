@@ -50,7 +50,8 @@ There are three parts in this project :
 - Remember to install Kinect for Windows SDK and Developer Toolkit first
 - ```./KinectTapingToolkit/KinectTapingToolkit/MainWindow.xaml.cs``` handles main window which shows Kinect-captured video
 - ```./KinectTapingToolkit/KinectTapingToolkit/ChooseKinectWin.xaml.cs``` handles small prompt appearing at start which lets you set Group and User of the log data name (for organization)
-- ```./KinectTapingToolkit/KinectTapingToolkit/SkeletonDisplayManager.cs``` Captures user's skeleton, transforms it into X,Y,Z coordinates and JSON format then stores it in text file (```./KinectTapingToolkit/KinectTapingToolkit/Logs/```) and sends it by HTTP POST to Server once per second. (The system can also be configured to POST more than once per second, if desired)
+- ```./KinectTapingToolkit/KinectTapingToolkit/SkeletonDisplayManager.cs``` Captures user's skeleton, transforms it into X,Y,Z coordinates and JSON format then stores it in text file (```./KinectTapingToolkit/KinectTapingToolkit/Logs/```) and sends it by HTTP POST to Server once per second. (The system can also be configured to POST more than once per second, if desired. Not recommended for slow connections)
+
 ![kinect_2.png](./image/kinect_2.png)
 
 *You can change the log data storing path and file name in the code*
@@ -60,7 +61,9 @@ There are three parts in this project :
 *Also, remember to change the server IP so you can control the Kinect remotely*
 
 
-- ```./KinectTapingToolkit/KinectTapingToolkit/ColorStreamManager.cs``` Transform RGB video captured by Kinect and render in main window
+- ```./KinectTapingToolkit/KinectTapingToolkit/ColorStreamManager.cs``` Transforms RGB video captured by Kinect and renders it in main window
+
+
 
 ####Run it
 ![kinect_0.png](./image/kinect_0.png)
@@ -69,7 +72,7 @@ There are three parts in this project :
 
 ![kinect_3.png](./image/kinect_3.jpg)
 
-#####*Due to permission of writing logs to file, you must run the program as an administrator*
+#####*Due to permissions w.r.t. writing logs to file, you must run the program as an administrator*
 
 ![kinect_4.png](./image/kinect_4.png)
 
@@ -80,15 +83,13 @@ There are three parts in this project :
 #####*The Example log data and server state info shown in main window*
 
 ## Files
-- [Version 1.0 on Google Drive](https://bitbucket.org/garynil1635/kinect-taping-toolkit/)
-- [Bitbucket Repository](https://bitbucket.org/garynil1635/kinect-taping-toolkit/) - If there is any update, I will put it here first.
 
+- [Version 1.0 on Google Drive](https://drive.google.com/open?id=0B85ZG5LLKQI9V3VaMFRXOGFZUzQ)
+- [Bitbucket Repository](https://bitbucket.org/garynil1635/kinect-taping-toolkit/) - If there is any update, I will put it here first.
+ 
 ## Credits
 - KinChat Toolkit is owned and maintained by [NTHU CSCLab](http://csclab.tw).
 - Please feel free to contact [Gary Lin](mailto:gary19930520@gmail.com) if you have some advice or need any further information.
 
 ## License
 * Check [LICENSE.txt](./LICENSE.txt) for this project
-
-
-
