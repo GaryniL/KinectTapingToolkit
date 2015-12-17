@@ -79,6 +79,10 @@ There are three parts in this project :
 
 #####*The Example log data and server state info shown in main window*
 
+## Files
+- [Version 1.0 on Google Drive](https://bitbucket.org/garynil1635/kinect-taping-toolkit/)
+- [Bitbucket Repository](https://bitbucket.org/garynil1635/kinect-taping-toolkit/) - If there is any update, I will put it here first.
+
 ## Credits
 - KinChat Toolkit is owned and maintained by [NTHU CSCLab](http://csclab.tw).
 - Please feel free to contact [Gary Lin](mailto:gary19930520@gmail.com) if you have some advice or need any further information.
