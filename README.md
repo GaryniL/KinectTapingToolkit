@@ -32,7 +32,7 @@ There are three parts in this project :
 - [Kinect for Windows Developer Toolkit v1.8](https://www.microsoft.com/en-us/download/details.aspx?id=40276)
 
 ## How To Get Started
-![structure.png](./image/structure.png)
+![structure1.png](./image/structure1.png)
 
 ### Part 1. Node.js Server Setup
 - ```./Server/app.js``` : server code
